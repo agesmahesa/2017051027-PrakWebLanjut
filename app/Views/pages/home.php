@@ -1,1 +1,6 @@
-<h3>WEB Lanjut Praktikum</h3>
+<?= $this->extend('templates/template'); ?>
+<?= $this->section('content'); ?>
+
+<h5>Ini Home</h5>
+
+<?= $this->endsection(); ?>
